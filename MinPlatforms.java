@@ -28,7 +28,6 @@ public class MinPlatforms{
             }
             if(emp > result)
                 result = emp;
-        //it.remove(); // avoids a ConcurrentModificationException
         }
         System.out.println("Minimum number of platforms required are "+result);
      }
